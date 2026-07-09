@@ -6,7 +6,7 @@ System-wide media playback controls for [OpenDeck](https://github.com/nekename/O
 
 ## Buttons
 
-| Action | What it does | Default colour |
+| Action | What it does | Default color |
 |--------|-------------|----------------|
 | **Play / Pause** | Toggle playback | Teal |
 | **Next Track** | Skip forward | Purple |
@@ -23,8 +23,8 @@ All buttons are independent — you can mix and match any combination on your la
 ## Features
 
 - **Near-instant response** — on first launch the plugin compiles a tiny native key-sender using the .NET Framework compiler built into every Windows install. After that each button press fires in ~5ms with no PowerShell overhead
-- **Per-button colour** — each button has its own colour picker
-- **Per-button label** — customise the text shown below the icon (up to 6 chars)
+- **Per-button color** — each button has its own color picker
+- **Per-button label** — customize the text shown below the icon (up to 6 chars)
 - **Mute indicator** — the mute button turns red and shows "MUTED" when active so you always know at a glance
 - **Static rendering** — buttons only redraw when something actually changes, keeping CPU usage minimal
 
@@ -45,16 +45,16 @@ All buttons are independent — you can mix and match any combination on your la
 
 ---
 
-## Customisation
+## Customization
 
 Click any placed button to open its settings panel:
 
 | Setting | Description |
 |---------|-------------|
 | **Label** | Text shown below the icon. Max 6 characters. Defaults to PLAY, NEXT, etc. |
-| **Colour** | Arc/icon colour. Each button is styled independently. |
+| **Color** | Arc/icon color. Each button is styled independently. |
 
-A **Reset to defaults** button restores the original colour and label for that action.
+A **Reset to defaults** button restores the original color and label for that action.
 
 ---
 
@@ -106,7 +106,7 @@ media.sdPlugin/
 │   ├── voldown-icon.png
 │   └── mute-icon.png
 ├── propertyinspector/
-│   └── button.html               # Settings panel (colour + label)
+│   └── button.html               # Settings panel (color + label)
 └── node_modules/
     └── ws/                       # WebSocket client
 ```
